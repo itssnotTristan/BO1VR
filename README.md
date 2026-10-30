@@ -30,7 +30,10 @@ download troubleshooting. Use **Bo1VR-Check.bat** if installation/launch fails.
 
 ## Current test build
 
-**0.1.0-test23-coop107** restores the original BO1 cloth ammo pouch and prepares
+**0.1.0-test23-coop108** excludes the optional pose-import executable reported
+by Defender in coop107 and removes its gameplay startup dependency. New pose
+imports are unavailable pending review; saved poses and holster editing remain.
+The original BO1 cloth ammo pouch is retained and prepares
 its mesh/texture from each player's retail files. No Mod Tools or copied private
 cache is required. It retains the earlier gameplay fixes.
 

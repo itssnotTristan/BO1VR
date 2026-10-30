@@ -8,7 +8,7 @@
       "id": "build",
       "attributes": {
         "label": "BO1VR build",
-        "placeholder": "0.1.0-test23-coop107"
+        "placeholder": "0.1.0-test23-coop108"
       },
       "validations": {
         "required": true
