@@ -1,0 +1,79 @@
+{
+  "name": "Gameplay bug",
+  "description": "Report a weapon, reload, grip, HUD, vehicle or other gameplay issue.",
+  "title": "[Bug] ",
+  "body": [
+    {
+      "type": "input",
+      "id": "build",
+      "attributes": {
+        "label": "BO1VR build",
+        "placeholder": "0.1.0-test23-coop107"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "location",
+      "attributes": {
+        "label": "Mission/checkpoint or Zombies map"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "weapon",
+      "attributes": {
+        "label": "Weapon and upgrade state, if relevant"
+      }
+    },
+    {
+      "type": "input",
+      "id": "setup",
+      "attributes": {
+        "label": "Headset, PCVR connection and OpenXR runtime"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "mode",
+      "attributes": {
+        "label": "Mode",
+        "options": [
+          "Solo Campaign",
+          "Solo Zombies",
+          "Private Zombies co-op"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "steps",
+      "attributes": {
+        "label": "How to reproduce",
+        "description": "List the actions, expected result and actual result. Include whether this followed a vehicle, death, weapon change or manual reload."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "evidence",
+      "attributes": {
+        "label": "Relevant error, screenshot or short video",
+        "description": "Remove private/account data. Do not attach game archives, saves or private caches."
+      }
+    }
+  ]
+}

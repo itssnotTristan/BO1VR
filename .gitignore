@@ -1,0 +1,13 @@
+# Docs-only public repository: release ZIPs go in GitHub Releases.
+*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/CREDITS.md
+!/SUPPORT.md
+!/AGENTS.md
+!/.github/
+!/.github/ISSUE_TEMPLATE/
+!/.github/ISSUE_TEMPLATE/*.yml
+!/licenses/
+!/licenses/*.txt

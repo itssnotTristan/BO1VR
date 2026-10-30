@@ -1,0 +1,57 @@
+{
+  "name": "Crash or launch failure",
+  "description": "Report an actual PC launch error, freeze or crash.",
+  "title": "[Crash] ",
+  "body": [
+    {
+      "type": "input",
+      "id": "build",
+      "attributes": {
+        "label": "Exact release asset/build"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "setup",
+      "attributes": {
+        "label": "Headset, PCVR connection and OpenXR runtime"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "where",
+      "attributes": {
+        "label": "When it happens",
+        "description": "Mission/map/checkpoint, death/downing, menu transition, weapon hover/draw or startup. Include the last action."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "error",
+      "attributes": {
+        "label": "Exact Windows/launcher error or crash details",
+        "description": "For startup use Bo1VR-Check.bat. For a security detection include its exact name. The Discord pre-download warning alone is not a PC launch error."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "evidence",
+      "attributes": {
+        "label": "Relevant log excerpts or clip",
+        "description": "Remove account data and private paths. Do not upload game archives or complete private caches."
+      }
+    }
+  ]
+}
