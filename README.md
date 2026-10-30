@@ -4,7 +4,7 @@ An experimental Windows PCVR extension for **Call of Duty: Black Ops**.
 This repository hosts downloads, setup information and bug reports. The full
 development repository and native C++ source are maintained privately.
 
-[**Download BO1VR**](../../releases) · [Report a bug](../../issues/new/choose)
+[**Download BO1VR**](../../releases) Â· [Report a bug](../../issues/new/choose)
 
 ## Requirements
 
@@ -30,12 +30,15 @@ download troubleshooting. Use **Bo1VR-Check.bat** if installation/launch fails.
 
 ## Current test build
 
-**0.1.0-test23-coop108** excludes the optional pose-import executable reported
-by Defender in coop107 and removes its gameplay startup dependency. New pose
-imports are unavailable pending review; saved poses and holster editing remain.
-The original BO1 cloth ammo pouch is retained and prepares
-its mesh/texture from each player's retail files. No Mod Tools or copied private
-cache is required. It retains the earlier gameplay fixes.
+**0.1.0-test23-coop109** fixes the extended MAC-10 magazine detachment,
+automatic CZ75 reload-part selection and chamber continuity on partial magazine
+swaps. It softens hover highlighting, seats the knife contact toward the wrist,
+restores native TOW steering input and adds trigger-only underbarrel launcher
+mechanisms. See the bundled CONTROLS-coop109.txt and verification report.
+
+The original BO1 cloth pouch still prepares from the player's own retail files.
+The optional pose-import executable reported in coop107 remains excluded; saved
+poses and holster editing remain available. No antivirus setting is changed.
 
 This is a test build. Physical-headset feel, two-PC private co-op and complete
 Campaign stability are not certified. Include your exact build, map/mission,
